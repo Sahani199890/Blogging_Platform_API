@@ -36,5 +36,5 @@
 * Performed Manual validation too with the need of it, as an example we cannot have more than one user with same name
 * Created Exception handler as the exceptions should be handled and whatever the output we want to show the user on screen is written 
 * Relationship between Models or tables are given accordingly, relationship given as such of @ManyToOne for post model where more than one user can have more than one posts or many posts, In the model class of follow there is a @ManyToOne relationship between Users like one user follows other user if users are present in the database and parallel there are @ManyToOne relationship in between sender and receiver user and comment they sent to the post
-* Swagger is added for the ease access of the project with link provided as follows : _**3.128.205.150/swagger-ui/index.html**_
-* This project is deployed online with IP: _**3.128.205.150**_ using Termius along with the help AWS-EC2 using various linus commands so that the mysql database and commands works on it
+* Swagger is added for the ease access of the project with link provided as follows : _**18.221.3.181:8080/swagger-ui/index.html**_
+* This project is deployed online with IP: _**18.221.3.181**_ using Termius along with the help AWS-EC2 using various linus commands so that the mysql database and commands works on it

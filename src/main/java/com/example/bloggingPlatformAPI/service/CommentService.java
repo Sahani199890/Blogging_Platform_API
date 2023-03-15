@@ -44,7 +44,6 @@ public class CommentService {
             return false;
         }
     }
-
     public boolean deleteComment(Integer commentId) {
         if(commentsRepo.findById(commentId).isPresent()){
             commentsRepo.deleteById(commentId);
