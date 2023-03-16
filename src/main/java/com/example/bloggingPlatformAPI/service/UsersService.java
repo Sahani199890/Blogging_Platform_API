@@ -16,7 +16,7 @@ public class UsersService {
     @Autowired
     private PostRepo postRepo;
 
-    public String addUser(UserModel userModel) {
+    public String addUser(UserModel userModel){
         List<UserModel> byUserName = userRepo.findByUserName(userModel.getUserName());
         String number = userModel.getNumber();
         for(int i=0;i<number.length();i++){

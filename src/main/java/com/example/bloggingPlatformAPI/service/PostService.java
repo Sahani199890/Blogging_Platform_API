@@ -7,6 +7,7 @@ import com.example.bloggingPlatformAPI.model.UserModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -50,7 +51,12 @@ public class PostService {
     }
 
     public List<PostModel> postAndUsers(Integer userId) {
-        UserModel userModel = userRepo.findById(userId).get();
-        return postRepo.findPostByUserId(userModel);
+        if(userRepo.findById(userId).isPresent()) {
+            UserModel userModel = userRepo.findById(userId).get();
+            return postRepo.findPostByUserId(userModel);
+        }
+        else{
+            return new ArrayList<>();
+        }
     }
 }

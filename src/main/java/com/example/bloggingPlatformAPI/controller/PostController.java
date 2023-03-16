@@ -15,7 +15,7 @@ public class PostController {
     @Autowired
     private PostService postService;
     @PostMapping("add-post")
-    public ResponseEntity<String> addPost(@Valid @RequestBody PostModel postModel){
+    public ResponseEntity<String> addPost(@RequestBody PostModel postModel){
         int id=postService.addPost(postModel);
         return new ResponseEntity<>("Post saved with postId -->"+id, HttpStatus.CREATED);
     }
