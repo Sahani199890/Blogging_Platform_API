@@ -2,6 +2,7 @@
 ### Requirements
 * IntelliJIDEA
 * ServerPort: 8080 (use: localhost:8080)
+* ServerPort: 8080 (use:18.221.3.181:8080)
 * Java version: 17
 * Everything is present in the pom.xml (no need to download any library)
 * Aws account to deploy project
