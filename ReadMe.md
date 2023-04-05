@@ -30,6 +30,13 @@
 ## MySQL
 * MySql Database,MySql JDBC driver
 ## Images
+![Screenshot (285)](https://user-images.githubusercontent.com/110148973/230027468-ccd5b931-06c8-4931-a020-6c060c47c954.png)
+
+![Screenshot (283)](https://user-images.githubusercontent.com/110148973/230026682-76719011-476e-4712-8d51-08ea7f52d44f.png)
+
+![Screenshot (284)](https://user-images.githubusercontent.com/110148973/230026741-a584cf19-7371-4bc6-9326-85b0e4073520.png)
+
+
 
 # Working
 * This project consist of four models namely UserModel, PostModel, Follow, Comments along with their corresponding dao classes, controller classes and service classes
