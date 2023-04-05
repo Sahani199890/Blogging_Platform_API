@@ -29,6 +29,7 @@
 * Helps user to ease access data in HTML format
 ## MySQL
 * MySql Database,MySql JDBC driver
+## Images
 
 # Working
 * This project consist of four models namely UserModel, PostModel, Follow, Comments along with their corresponding dao classes, controller classes and service classes
